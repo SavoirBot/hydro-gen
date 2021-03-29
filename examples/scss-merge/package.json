@@ -1,0 +1,17 @@
+{
+  "name": "example/scss-merge",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf ./temp && ts-node index.ts"
+  },
+  "author": "Guillaume St-Pierre",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node-sass": "^4.11.1",
+    "node-sass": "^5.0.0",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@savoirbot/hydro-gen": "file:../.."
+  }
+}
